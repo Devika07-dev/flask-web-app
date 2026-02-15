@@ -4,7 +4,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 import joblib
 import numpy as np
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # ---------------------------
 # Create a dummy model
@@ -46,5 +46,5 @@ def predict():
     return jsonify({"prediction": prediction.tolist()})
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
