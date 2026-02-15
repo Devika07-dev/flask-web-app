@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: 'd8b1c492-1153-48e5-abff-79c113f27fc0'
 
   # Web app name
-  webAppName: 'helloflask1'
+  webAppName: 'helloflask2'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'helloflask1'
+  environmentName: 'helloflask2'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
@@ -79,7 +79,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : helloflask1'
+            displayName: 'Deploy Azure Web App : helloflask2'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
