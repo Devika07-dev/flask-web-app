@@ -1,4 +1,4 @@
-# Building a CI/CD Pipeline with Azure
+# Building a CI/CD Pipeline with GitHub Actions and Azure.
 
 ![CI](https://github.com/Devika07-dev/flask-web-app/actions/workflows/main.yml/badge.svg)
  
