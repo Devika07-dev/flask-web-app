@@ -99,7 +99,7 @@ This screenshot shows a successful Azure Pipeline execution, confirming Continuo
  
 The CI/CD pipeline successfully builds and deploys the application.
  
-![Creating Azure Web App](./Screenshots/CreatingAppService.png)
+![Creating Azure Web App](./Screenshots/AppRunSuccessful.png)
  
 This screenshot shows:
 - Pipeline run with green checkmark
@@ -112,12 +112,18 @@ This screenshot shows:
  
 The Successful Creation of Azure webapp Azure Cloud Shell.
 
-![Creation of Webapp in Cloud shell](./Screenshots/AppServiceCreated.png)
+![Creation of Webapp in Cloud shell](./Screenshots/WebAppCreation.png)
 
 ---
 ## 6.Screenshot of Project deployed in Azure
 
-![Project deployed in Azure](./Screenshots/AppServiceSuccess.png)
+![Project deployed in Azure](./Screenshots/AzureDeployedSuccessful.png)
+
+---
+
+## 7.Screenshot of Successful machine learning prediction 
+
+![Project deployed in Azure](./Screenshots/PredictionSuccessful.png)
 
 ---
 
