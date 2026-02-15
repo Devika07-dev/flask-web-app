@@ -129,7 +129,7 @@ The Successful Creation of Azure webapp Azure Cloud Shell.
 
 ## 8.Screenshot of successful run of the project in Azure Pipelines
 
-![Project deployed in Azure](./Screenshots/SuccessfulRun.png)
+![Project deployed in Azure](./Screenshots/SuccessfullRun.png)
 
 ---
 ## Project Management
