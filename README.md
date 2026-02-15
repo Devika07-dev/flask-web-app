@@ -79,7 +79,7 @@ make test
 ### 1. Successful Linting and Testing in Azure Cloud Shell
 This screenshot shows the project running in Azure Cloud Shell with successful execution of both lint checks and unit tests using the Makefile.
  
-![Cloud Shell Lint and Test Success](./Screenshots/TestSuccess.png)
+![Cloud Shell Lint and Test Success](./Screenshots/TestSuccess.jpg)
  
 ---
  
@@ -99,7 +99,7 @@ This screenshot shows a successful Azure Pipeline execution, confirming Continuo
  
 The CI/CD pipeline successfully builds and deploys the application.
  
-![Creating Azure Web App](./Screenshots/AppRunSuccessful.png)
+![Creating Azure Web App](./Screenshots/AppRunSuccessful.jpg)
  
 This screenshot shows:
 - Pipeline run with green checkmark
@@ -117,7 +117,7 @@ The Successful Creation of Azure webapp Azure Cloud Shell.
 ---
 ## 6.Screenshot of Project deployed in Azure
 
-![Project deployed in Azure](./Screenshots/AzureDeployedSuccessful.png)
+![Project deployed in Azure](./Screenshots/AzureDeployedSuccessful.jpg)
 
 ---
 
