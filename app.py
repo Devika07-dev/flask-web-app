@@ -37,8 +37,8 @@ def home():
 def predict():
     try:
         clf = joblib.load("GradientBoostingRegressor.joblib")
-    except:
-        return "Model not loaded", 500
+    except Exception as e:
+        return f"Model not loaded: {e}", 500
 
     json_payload = request.json
     df_payload = pd.DataFrame(json_payload)
