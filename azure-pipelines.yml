@@ -3,7 +3,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection name (from your Azure DevOps service connections)
-  azureServiceConnectionId: 'Azure subscription 1'
+  azureServiceConnectionId: 'd8b1c492-1153-48e5-abff-79c113f27fc0'
 
   # Web app name
   webAppName: 'helloflask2'
@@ -68,6 +68,6 @@ stages:
     - task: AzureWebApp@1
       displayName: 'Deploy Azure Web App : helloflask2'
       inputs:
-        azureSubscription: 'Azure subscription 1'
+        azureSubscription: $(azureServiceConnectionId)
         appName: $(webAppName)
         package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
