@@ -154,7 +154,7 @@ You can access the spreadsheet here: [Project Plan Spreadsheet](./project-plan.x
 
 ### Project Screencast
  
-Watch the full demo here: [CI/CD Pipeline Demo](https://youtu.be/-ISpr9sDzOg)
+Watch the full demo here: [CI/CD Pipeline Demo](https://youtu.be/Q63HtaNQ5jk)
 
 ## Future Improvements
  
